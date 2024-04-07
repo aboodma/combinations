@@ -1,0 +1,35 @@
+{
+    "name": "aboodma/combinations",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aboodma\\Combinations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdulrahman Mardinli",
+            "email": "34406204+aboodma@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laracon21\\Combinations\\CombinationsServiceProvider"
+            ],
+            "aliases": {
+                "Combinations": "Laracon21\\Combinations\\CombinationsFacade"
+            }
+        }
+    }
+}
