@@ -4,9 +4,7 @@ namespace Aboodma\Combinations\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Laracon21\Combinations\Skeleton\SkeletonClass
- */
+
 class CombinationsFacade extends Facade
 {
     /**
