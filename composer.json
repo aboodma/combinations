@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laracon21\\Combinations\\CombinationsServiceProvider"
+                "Aboodma\\Combinations\\Provider\\CombinationsServiceProvider"
             ],
             "aliases": {
-                "Combinations": "Laracon21\\Combinations\\CombinationsFacade"
+                "Combinations": "Aboodma\\Combinations\\Facade\\CombinationsFacade"
             }
         }
     }
